@@ -44,8 +44,12 @@ Hence, apart from this README.MD file, there should be 8 more files (4 .png and 
 
 Please note:
 
-1. These code file need sqldb package to be installed for running. If sqldb is not installed these .R code will fail to run.
+1. These code files need sqldb package to be installed for running. If sqldb is not installed these .R code will fail to run.
 2. It is assumed that these code files will be present in the same working directory as where the data file (household_power_consumption.txt) is unzipped and downloaded.
+3. Each of the code file is defined in a function, hence post sourcing the code, you need to run the function as the same name as the source code. 
+	For example, if we are running the code for plot1.R, the following code has to be run:
+	source("plot.R")
+	plot1()
 
 
 
